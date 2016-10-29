@@ -1,0 +1,182 @@
+/*
+	Theme name: 1stwebdesigner HTML5/CSS3 Layout
+	Date: July 2016
+	Description: Basic HTML5/CSS3 layout built on a responsive framework
+	Version: 1.0
+	Author: Christian Vasile
+	Author URL: http://christianville.com
+*/
+
+/*  ======================================
+	========== Body Style ================
+	======================================
+*/
+
+body{
+	background-color: #999;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px background-image: url('assets/img/bg.png');*/
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #cf5c3f;
+}
+
+a:hover, a:active {
+	background-color: #cf5c3f;
+	color: #fff;
+}
+
+.body{
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.mainheader img {
+	width: 30;
+	height: auto;
+	margin: 2% 0; 
+}
+
+.mainheader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+list-style: none;
+margin: 0 auto;
+}
+
+.mainheader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: #fff; 
+	display: inline-block;
+	padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link,
+.mainheader nav .active a:visited
+ {
+ 	background-color: #cf5c3f;
+ 	text-shadow: none;
+}
+
+.mainheader nav ul li a {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.mainContent {
+	margin-top: 2%;
+	line-height:25%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin: 2px;
+}
+
+.buttomcontent {
+	margin-top: 2%;
+    background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin: 2px;
+}
+
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.post-info{
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.buttom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%; 
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 1% auto;
+	color: #fff;
+}
+
+/*  ======================================
+	========== git practice ================
+	======================================
+*/
